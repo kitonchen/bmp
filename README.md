@@ -1,0 +1,2 @@
+# bmp
+handle bmpfile
