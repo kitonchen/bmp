@@ -1,5 +1,5 @@
 #pragma once
-#pragma pack(2)
+#pragma pack(1)
 #define  true 1
 #define  false 0
 
@@ -44,7 +44,7 @@ typedef struct BMPfile
 {
 	bitmap_file_header fileHeader;
 	bimap_info_header  infoHeader;
-	RGB_quad colorsquad[1];//彩色表
+	//RGB_quad colorsquad[1];//彩色表
 }bmp_file;
 
 
